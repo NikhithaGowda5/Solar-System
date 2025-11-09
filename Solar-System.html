@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+      * {
+        padding: 0px;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .galaxy {
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/2023/09/swift_M31_mosaic_1600.webp");
+        background-size: cover;
+      }
+
+      .circle {
+        border: 2px solid white;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 6s linear 0s infinite normal;
+      }
+      .circle1 {
+        border: 2px solid white;
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 7s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle2 {
+        border: 2px solid white;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 8s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle3 {
+        border: 2px solid white;
+        height: 650px;
+        width: 650px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 9s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle4 {
+        border: 2px solid white;
+        height: 800px;
+        width: 800px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 10s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle5 {
+        border: 2px solid white;
+        height: 950px;
+        width: 950px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 11s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle6 {
+        border: 2px solid white;
+        height: 1100px;
+        width: 1100px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 12s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+      .circle7 {
+        border: 2px solid white;
+        height: 1250px;
+        width: 1250px;
+        position: absolute;
+        border-radius: 50%;
+        animation: rotate 13s linear 0s infinite normal;
+        mix-blend-mode: normal;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .sun img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        padding: 0px;
+      }
+      
+      
+      .mercury img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 0px;
+        border-radius: 50%;
+      }
+      .venus img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 30px;
+        border-radius: 50%;
+        mix-blend-mode:darken;
+      }
+      .earth img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 75px;
+        border-radius: 50%;
+      }
+      .mars img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 125px;
+        border-radius: 50%;
+      }
+      .jupiter img {
+        height: 92px;
+        width: 92px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 175px;
+        border-radius: 50%;
+      }
+      .saturn img {
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 220px;
+        border-radius: 50%;
+      }
+      .uranus img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 300px;
+        border-radius: 50%;
+      }
+      .neptune img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        padding: 0px;
+        position: relative;
+        top: 375px;
+        border-radius: 50%;
+      }
+    
+    </style>
+</head>
+<body>
+    <div class="galaxy">
+        <div class="sun">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/045/979/597/small_2x/bright-sun-cut-outs-ready-to-use-images-free-png.png">
+        </div>
+        <div class="circle">
+            <div class="mercury">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Transparent_Mercury.png">
+            </div>
+        </div>
+        <div class="circle1">
+            <div class="venus">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Venus_globe_-_transparent_background.png/2048px-Venus_globe_-_transparent_background.png">
+            </div>
+        </div>
+        <div class="circle2">
+            <div class="earth">
+              <img src="https://pngimg.com/d/earth_PNG14.png">
+            </div>
+        </div>
+        <div class="circle3">
+            <div class="mars">
+              <img src="https://pngimg.com/d/mars_planet_PNG7.png">
+            </div>
+        </div>
+        <div class="circle4">
+            <div class="jupiter">
+              <img src="https://pngimg.com/d/jupiter_PNG20.png">
+            </div>
+        </div>
+        <div class="circle5">
+            <div class="saturn">
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/043/576/202/small_2x/saturn-planet-on-isolated-transparent-background-png.png">
+            </div>
+        </div>
+        <div class="circle6">
+            <div class="uranus">
+              <img src="https://png.pngtree.com/png-clipart/20241001/original/pngtree-a-beautiful-uranus-planet-png-image_16139577.png">
+            </div>
+        </div>
+        <div class="circle7">
+            <div class="neptune">
+              <img src="https://png.pngtree.com/png-vector/20240310/ourmid/pngtree-neptun-planet-solar-system-in-galaxy-png-image_11927798.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
